@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./events.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="icon" href="./Assests/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+    <div class="container">
+        <a class="navbar-brand" href="">
+            <img src="./Assests/logo.png" alt="logo" class="brand-logo">
+        </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Components/membership.html">Membership</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./gallary.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+    
+
+    <div id="page2">
+       
+        <div id="green-div">
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt="" style="height: 300px;"
+          />
+          
+          <h4>
+            JOIN ALL THE EVENTS CONDUCTED BY US. WE ARE HERE TO HELP YOU FOR BETTERMENT OF YOUR FUTURE AND CARRER.
+          </h4>
+          <img
+            src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/dots-side.svg"
+            alt="" style="height: 300px;"
+          />
+        </div>
+      </div>
+      <div id="page3">
+        <p>
+          We celebrates global learning, collaboration, and friendship by Making the world feel smaller, 
+          one meaningful connection at a time, Where your academic and research journey meets the power of global connections.
+        </p>
+        <img
+          id="colon1"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
+          alt=""
+        />
+        <img
+          id="colon2"
+          src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
+          alt=""
+        />
+      </div>
+      <div id="page4">
+        <h1>
+          <marquee behavior="slide" direction="left" loop="20" scrollamount="20">
+              WHAT ARE YOU WAITING FOR?  
+          </marquee>
+        </h1>
+      
+        <div class="elem">
+          <h2>Inauguration Day on 26th September 2024</h2>
+          <!-- <img
+            src="./Assests/elem1.jpg"
+            alt=""
+          /> -->
+        </div>
+        <div class="elem">
+          <h2>Battukamma celebration 29th September 2024</h2>
+          <!-- <img
+            src="./Assests/elem1.jpg"
+            alt=""
+          /> -->
+        </div>
+      </div>
+
+
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-row">
+            <div class="footer-col">
+              <h4>About Us</h4>
+              <p>
+                We help students establish connections across the globe, enabling a
+                world of opportunities and cultural exchange.
+              </p>
+            </div>
+            <div class="footer-col">
+              <h4>Contact</h4>
+              <ul>
+                <li>
+                    <i class="fa fa-envelope"></i> 2203a51728@sru.edu.in 
+                    <i class="fa fa-copy" onclick="copyEmail()" style="margin-left: 5px;"></i>
+                </li>
+                <li>
+                    <i class="fa fa-phone"></i> +1-234-567-8900 
+                    <i class="fa fa-copy" onclick="copyPhone()" style="margin-left: 5px;"></i>
+                </li>
+              </ul>
+        
+              <script>
+              function copyEmail() {
+                  const email = "2203a51728@sru.edu.in";
+                  navigator.clipboard.writeText(email).then(() => {
+                      alert("Email copied to clipboard!");
+                  }).catch(err => {
+                      console.error("Could not copy email: ", err);
+                  });
+              }
+          
+              function copyPhone() {
+                  const phone = "+1-234-567-8900";
+                  navigator.clipboard.writeText(phone).then(() => {
+                      alert("Phone number copied to clipboard!");
+                  }).catch(err => {
+                      console.error("Could not copy phone number: ", err);
+                  });
+              }
+              </script>
+            </div>
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/isan_sru/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/isan-sru-0b018332b/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/ISAN_Sru"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 International Student Affairs Networking Club. All rights reserved. <br>
+            -Chandan Raj
+          </p>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
